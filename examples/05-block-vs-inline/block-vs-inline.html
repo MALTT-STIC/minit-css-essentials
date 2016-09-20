@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Block vs. Inline</title>
+    <style>
+        nav ul li {
+            display: inline;
+        }
+        
+        .btn-block {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Block vs. Inline</h1>
+
+    <p>With CSS you can change the display properties of elements, which are usually either:</p>
+    <ul>
+        <li>block: they occupy all the available space and represent a "new line".</li>
+        <li>inline: they occupy just the space they need on the line.</li>
+    </ul>
+
+    <p>Sometimes it can be useful to make block elements inline or vice-versa. For instance, we can use inline lists elements to build an horizontal navigation menu:</p>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+        </ul>
+    </nav>
+
+    <p>On the other hand, we can display inline elements as block, for instance if we want buttons to occupy all the available space.</p>
+    <label>The following button is blocked:</label>
+    <button class="btn-block">I am a block button</button>
+    <label>The following button is blocked:</label>
+    <button class="btn-block">I am another block button</button>
+    <label>The following button is inline:</label>
+    <button>I am a normal button</button>
+</body>
+
+</html>

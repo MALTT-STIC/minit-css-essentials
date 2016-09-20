@@ -1,0 +1,9 @@
+/* This is an external CSS file */
+
+
+/* There is no need for any header, and it must contain only CSS syntax */
+
+body {
+    background-color: black;
+    color: white;
+}
