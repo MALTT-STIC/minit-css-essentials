@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selectors Inheritance</title>
+    <style>
+        .parent {
+            background-color: brown;
+            padding: 25px;
+            border: 1px solid #000;
+            color: white;
+            font-size: 2rem;
+        }
+
+        .overwrite-parent {
+            color: black;
+        }
+
+        .add-different-from-parent {
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Selectors Inheritance</h1>
+    <div class="parent">
+        <p>Children elements will automatically inherit their parent's style rules.</p>
+        <p class="overwrite-parent">
+            Unless they declare the same property with a different value.
+        </p>
+        <p class="add-different-from-parent">
+            They can also add something specific, without any conflict.
+        </p>
+    </div>
+</body>
+
+</html>
