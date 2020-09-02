@@ -1,63 +1,76 @@
-<!doctype html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Selectors Priority</title>
     <style>
-        /* Increase the font of the body */
+      /* Increase the font of the body */
 
-        body {
-            font-size: 20px;
-        }
+      body {
+        font-size: 20px;
+      }
 
-        /* Select all p elements */
+      /* Select all p elements */
 
-        p {
-            color: darkblue;
-        }
+      p {
+        color: darkblue;
+      }
 
-        /* Select all elements with a certain class attribute */
+      /* Select all elements with a certain class attribute */
 
-        .para-class {
-            color: darkgreen;
-        }
+      .para-class {
+        color: darkgreen;
+      }
 
-        /* Select all elements with a certain id attribute */
+      /* Select all elements with a certain id attribute */
 
-        #para-id {
-            color: darkviolet;
-        }
+      #para-id {
+        color: darkviolet;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <h1>Selectors Priority</h1>
 
-    <p><strong>I am a normal paragraph</strong>: lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
-        amet, nam voluptatibus libero aperiam doloribus repudiandae officia veritatis perferendis magnam, eaque eveniet
-        minima earum officiis sunt iusto voluptatum reprehenderit nisi?</p>
+    <p>
+      <strong>I am a normal paragraph</strong>: lorem ipsum dolor sit amet,
+      consectetur adipisicing elit. Repellat amet, nam voluptatibus libero
+      aperiam doloribus repudiandae officia veritatis perferendis magnam, eaque
+      eveniet minima earum officiis sunt iusto voluptatum reprehenderit nisi?
+    </p>
 
-    <p class="para-class"><strong>I am a paragraph with a class</strong>: lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Optio dolores, odio voluptas hic quis ea iste libero corrupti eaque laudantium quod quibusdam
-        modi inventore voluptates nulla, velit nam unde? Placeat.</p>
+    <p class="para-class">
+      <strong>I am a paragraph with a class</strong>: lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Optio dolores, odio voluptas hic quis
+      ea iste libero corrupti eaque laudantium quod quibusdam modi inventore
+      voluptates nulla, velit nam unde? Placeat.
+    </p>
 
-    <p class="para-class" id="para-id"><strong>I am a paragraph with a class and an id</strong>: lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Fuga natus ea quasi aliquid mollitia repellat animi iusto adipisci rem. Non
-        temporibus nobis totam, dolore omnis harum, voluptatum beatae vero nihil.</p>
+    <p class="para-class" id="para-id">
+      <strong>I am a paragraph with a class and an id</strong>: lorem ipsum
+      dolor sit amet, consectetur adipisicing elit. Fuga natus ea quasi aliquid
+      mollitia repellat animi iusto adipisci rem. Non temporibus nobis totam,
+      dolore omnis harum, voluptatum beatae vero nihil.
+    </p>
 
-    <div><strong>I am a div and not a paragraph</strong> : lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Numquam quis ducimus impedit, accusantium excepturi dolorum illo dolorem, dolores quisquam doloremque dolore,
-        consectetur cupiditate nam. Sunt odit dolorem excepturi tenetur maiores!</div>
+    <div>
+      <strong>I am a div and not a paragraph</strong> : lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Numquam quis ducimus impedit,
+      accusantium excepturi dolorum illo dolorem, dolores quisquam doloremque
+      dolore, consectetur cupiditate nam. Sunt odit dolorem excepturi tenetur
+      maiores!
+    </div>
 
     <h2>Order of importance</h2>
     <ol>
-        <li>ID has priority over classes and tagsname (e.g. #id > .class)</li>
-        <li>Classes have priorities over tagsname (e.g. .class > p)</li>
-        <li>More specific tag names "paths" have priorities over more general tags name (e.g. p strong > strong) </li>
+      <li>ID has priority over classes and tagsname (e.g. #id > .class)</li>
+      <li>Classes have priorities over tagsname (e.g. .class > p)</li>
+      <li>
+        More specific tag names "paths" have priorities over more general tags
+        name (e.g. p strong > strong)
+      </li>
     </ol>
-
-</body>
-
+  </body>
 </html>
