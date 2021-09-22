@@ -20,7 +20,7 @@ Les fichiers sont censés être utilisés en modalité édition dans un éditeur
 Les fichiers sont organisés en trois dossiers :
 
 1. **examples** contenant des sous-dossiers, chacun abordant une thématique spécifique avec des fichiers d'exemples
-2. **hand-on** qui ne contient aucun élément, mais qui est à disposition des étudiant-es pour créer des fichiers à fin de pratiquer directement les exemples en autonomie
+2. **hands-on** qui ne contient aucun élément, mais qui est à disposition des étudiant-es pour créer des fichiers à fin de pratiquer directement les exemples en autonomie
 3. **task** contenant des sous-dossiers avec la même numération des exemples. Chaque sous-dossier propose un fichier avec suffix **-challenge.html** avec une série d'instructions pour tester la maîtrise des exemples. Un fichier avec suffix **-solution.html** propose la solution attendue, si disponible, car certaines tâches ont des solutions _ouvertes_.
 
 Pour le moment, les fichiers sont en anglais, mais ils seront probablement traduit en français dans le futur.
