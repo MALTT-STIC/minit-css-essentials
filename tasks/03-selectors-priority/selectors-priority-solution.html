@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Selectors Priority Solution</title>
     <style>
-      /* 1. Make all paragraphs with a 18px font-size */
+      /* 1. Make all paragraphs with a 1.5rem font-size */
 
       p {
-        font-size: 18px;
+        font-size: 1.5rem;
       }
 
       /* 2. Make "important" class all darkorange */
@@ -17,9 +17,9 @@
         color: darkorange;
       }
 
-      /* 3. Make "my-unique-li" id with white font over black background */
+      /* 3. Make "my-unique-li" class with white font over black background */
 
-      #my-unique-li {
+      .my-unique-li {
         color: white;
         background-color: black;
       }
@@ -46,7 +46,9 @@
     <ul>
       <li>I am a normal list item</li>
       <li>I am a normal list item</li>
-      <li id="my-unique-li">I am a unique list item with an id</li>
+      <li class="my-unique-li">
+        I am a unique list item with a specific class
+      </li>
       <li>I am a normal list item</li>
       <li>I am a normal list item</li>
     </ul>
